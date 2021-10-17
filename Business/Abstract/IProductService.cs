@@ -16,5 +16,6 @@ namespace Business.Abstract
         IDataResult<Product> GetById(int productId); // tek başına ürün döndürme mesela bir alışveriş sitesinin bir ürününe tıklandığında ki detay
 
         IResult Add(Product product); //CRUD OPERASYONLARI
+        IResult Update(Product product);
     }
 }
